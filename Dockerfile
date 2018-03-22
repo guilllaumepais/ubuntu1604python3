@@ -7,4 +7,5 @@ RUN apt-get update && apt-get upgrade -qy && \
 		python3 \
 		git \
 		gcc-multilib \
-		g++-multilib 
+		g++-multilib \
+		zip gzip tar
