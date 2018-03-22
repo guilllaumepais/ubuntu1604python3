@@ -4,4 +4,5 @@ From ubuntu:16.04
 RUN apt-get update && apt-get upgrade -qy && \
 	apt-get install -qy \
 		build-essential \
-		python3
+		python3 \
+		git
