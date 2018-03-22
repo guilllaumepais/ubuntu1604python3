@@ -5,4 +5,6 @@ RUN apt-get update && apt-get upgrade -qy && \
 	apt-get install -qy \
 		build-essential \
 		python3 \
-		git
+		git \
+		gcc-multilib \
+		g++-multilib 
